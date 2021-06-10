@@ -1,0 +1,123 @@
+body {
+    /*background-color: #5537D3;*/
+    background-image: url('../src/img/bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* Background image is fixed in the viewport so that it doesn’t move when
+    the content’s height is greater than the image’s height */
+    background-attachment: fixed;
+
+    /* This is what makes the background image rescale based
+    on the container’s size */
+    background-size: cover;
+
+    /* Set a background color that will be displayed
+    while the background image is loading 
+    background-color: #464646;*/
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+    margin: 30px;
+}
+
+.menu-icon {
+    width: 25px;
+    cursor: pointer;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: coral;
+}
+
+.col-1 {
+    width: 45%;
+    margin-top: 7%;
+}
+
+.col-2 {
+    width: 100%;
+    margin-top: 3%;
+}
+
+/*color
+
+#5537D3
+*/
+.little-title {
+    color: #808080;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+.big-title {
+    font-style: normal;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.btn-sign-in {
+    padding: 10px;
+    border-radius: 20px;
+    border-color: #6549d6;
+    border-style: solid;
+}
+
+.my-input {
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 0.5px;
+    height: 30px;
+    width: 100%;
+    padding: 15px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.473);
+    -moz-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.473);
+    -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.473);
+    -khtml-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.473);
+}
+
+input:focus {
+    outline: none !important;
+}
