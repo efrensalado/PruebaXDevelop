@@ -7,7 +7,6 @@ let l = 0;
 let movePer = 25.34;
 let maxMove = 203;
 menuList.style.maxHeight = "0px";
-// mobile_view	
 let mob_view = window.matchMedia("(max-width: 768px)");
 if (mob_view.matches) {
 	movePer = 50.36;
@@ -49,7 +48,6 @@ span[0].onclick = () => {
 }
 
 function toggleMenu() {
-	console.log(menuList.style.maxHeight);
 	if (menuList.style.maxHeight == "0px") {
 		menuList.style.maxHeight = "130px"
 	} else {
