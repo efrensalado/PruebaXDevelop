@@ -1,3 +1,2 @@
 # PruebaXDevelop
-
-Para visualizar este template, ingrese a https://efrensalado.github.io/PruebaXDevelop/
+# El contenido de este repositorio es solo html, js y css.
